@@ -72,4 +72,4 @@ web-compose-app/
 ├── docker-compose.yml
 ├── Jenkinsfile
 
-
+Task 12: CI/CD with Docker Compose for a 2-Tier Web App (Nginx + PHP or Node + MySQL)
