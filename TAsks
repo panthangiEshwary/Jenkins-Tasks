@@ -96,3 +96,11 @@ Orchestration -	Docker Compose
 CI/CD	- Jenkins
 Git Repo	-   GitHub
 Image Store - 	Docker Hub
+
+(or)
+
+ Nginx (Frontend) + MySQL (Database) using Docker Compose (2-tier Architecture)
+🔧 What is 2-tier architecture?
+In a 2-tier app:
+Tier 1: Frontend (Nginx) – Static web UI (HTML/JS/CSS)
+Tier 2: Backend Database (MySQL) – Stores data like user info, products, etc.
