@@ -57,3 +57,19 @@ Build Docker image
 Push image to Docker Hub
 Deploy using docker-compose
 Accessed via http://<EC2-IP>:8080
+
+Task 11: Jenkins CI/CD for Docker Compose App (Nginx Static Website)
+We will:
+
+Use Nginx as a simple web server
+Create a static website (e.g., index.html)
+Write a Dockerfile to package it
+Use Docker Compose to run the container
+Automate everything via a Jenkins pipeline
+web-compose-app/
+├── index.html
+├── Dockerfile
+├── docker-compose.yml
+├── Jenkinsfile
+
+
