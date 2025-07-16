@@ -104,3 +104,22 @@ Image Store - 	Docker Hub
 In a 2-tier app:
 Tier 1: Frontend (Nginx) – Static web UI (HTML/JS/CSS)
 Tier 2: Backend Database (MySQL) – Stores data like user info, products, etc.
+
+TASK :13
+ Jenkins + Docker Compose multi-container project 
+creating a mini CI/CD project using Jenkins, Docker Compose, Flask, and MySQL.
+It’s a simple web application that:
+Uses Python (Flask) to display a web page.
+Connects to a MySQL database to fetch data.
+Is containerized using Docker.
+Uses Docker Compose to manage both containers (Flask + MySQL) together.
+Is automated by Jenkins — so whenever you push code to GitHub, Jenkins:
+Clones the repo.
+Builds Docker images.
+
+Python (Flask) as the backend.
+MySQL as the database.
+Docker Compose to manage both containers.
+Jenkins to automate the CI/CD pipeline.
+
+
