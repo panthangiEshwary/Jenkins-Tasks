@@ -122,4 +122,11 @@ MySQL as the database.
 Docker Compose to manage both containers.
 Jenkins to automate the CI/CD pipeline.
 
+Here’s the story of your app:
+User hits the app in browser → Flask app responds.
+Flask app talks to MySQL, gets some text like “Hello from MySQL!”.
+Docker makes Flask and MySQL run as separate containers.
+Docker Compose launches both together, makes sure Flask waits for MySQL.
+Jenkins automates this whole setup each time code changes in GitHub.
+
 
