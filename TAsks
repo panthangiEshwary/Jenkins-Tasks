@@ -128,5 +128,19 @@ Flask app talks to MySQL, gets some text like “Hello from MySQL!”.
 Docker makes Flask and MySQL run as separate containers.
 Docker Compose launches both together, makes sure Flask waits for MySQL.
 Jenkins automates this whole setup each time code changes in GitHub.
+ Flow Diagram :
+GitHub (push code)
+     |
+     ↓
+Jenkins (webhook triggered)
+     |
+     ↓
+Docker Compose (build & run)
+     |
+     ↓
+Flask Container ⇆ MySQL Container
+     |
+     ↓
+Browser (you open http://your-server:5000)
 
 
