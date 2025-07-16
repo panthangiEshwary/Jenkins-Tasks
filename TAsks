@@ -73,3 +73,10 @@ web-compose-app/
 ├── Jenkinsfile
 
 Task 12: CI/CD with Docker Compose for a 2-Tier Web App (Nginx + PHP or Node + MySQL)
+This task will help you learn how to:
+
+Use multiple containers (web + database)
+Connect them using Docker Compose networks
+Manage CI/CD using Jenkins Pipeline
+Push images to Docker Hub
+Automate everything via GitHub + Jenkins
