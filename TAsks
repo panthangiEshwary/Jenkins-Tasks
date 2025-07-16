@@ -1,0 +1,59 @@
+Jenkins + Docker Project Tasks Completed
+
+Task 1: Install Jenkins on Ubuntu EC2
+Installed Java and Jenkins
+Enabled Jenkins service and firewall ports
+Set up admin user interface
+
+Task 2: Jenkins Freestyle Job (GitHub Clone)
+Created a Jenkins Freestyle Job
+Cloned a public GitHub repository using Git SCM
+
+Task 3: Trigger Jenkins with GitHub Webhook
+Added webhook to GitHub repository
+Configured Jenkins to poll SCM or trigger on webhook
+Verified automatic build on GitHub push
+
+Task 4: GitHub Repo Setup (python-jenkins)
+Created GitHub repository manually
+Generated GitHub PAT (Personal Access Token)
+Initialized local git repo and pushed code using PAT
+
+Task 5: Jenkinsfile for Flask App
+Wrote a Jenkinsfile with pipeline stages:
+Clone
+Build Docker image
+Run container
+
+Task 6: Jenkins Pipeline Job from GitHub
+
+Used "Pipeline from SCM"
+Connected to GitHub main branch
+Triggered job and resolved branch errors
+
+Task 7: Docker + Jenkins Pipeline Integration
+
+Confirmed Docker installation on Jenkins server
+Built and ran Flask app using Docker inside Jenkins pipeline
+
+Task 8: Docker Installation for Jenkins
+Installed Docker on EC2 Jenkins host
+Added Jenkins user to Docker group
+Restarted Jenkins to apply changes
+
+Task 9: Push Docker Image to Docker Hub
+Created Docker Hub account/repo
+Added DockerHub credentials in Jenkins
+Used docker login and docker push from Jenkinsfile
+
+Task 10: Docker Compose Deployment with Nginx
+Created a simple static website with index.html
+Built Docker image using Dockerfile
+Wrote docker-compose.yml to deploy container
+Jenkins pipeline stages:
+Clone from GitHub
+Build Docker image
+
+Push image to Docker Hub
+Deploy using docker-compose
+Accessed via http://<EC2-IP>:8080
