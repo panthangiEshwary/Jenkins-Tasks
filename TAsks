@@ -80,3 +80,11 @@ Connect them using Docker Compose networks
 Manage CI/CD using Jenkins Pipeline
 Push images to Docker Hub
 Automate everything via GitHub + Jenkins
+App Architecture:
+web-compose-2tier/
+├── docker-compose.yml
+├── nginx/
+│   └── index.html (or index.php)
+├── db/
+│   └── init.sql (optional for seeding)
+├── Jenkinsfile
