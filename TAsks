@@ -88,3 +88,11 @@ web-compose-2tier/
 ├── db/
 │   └── init.sql (optional for seeding)
 ├── Jenkinsfile
+
+Component	Tech
+Frontend -	Nginx (or PHP/Node)
+Backend -	MySQL
+Orchestration -	Docker Compose
+CI/CD	- Jenkins
+Git Repo	-   GitHub
+Image Store - 	Docker Hub
